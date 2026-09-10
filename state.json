@@ -1,0 +1,236 @@
+{
+  "teachers": [
+    {
+      "name": "陈泽尧",
+      "role": "初高数学英语",
+      "color": "#6c5ce7"
+    },
+    {
+      "name": "钟坤",
+      "role": "小初中数学",
+      "color": "#138a63"
+    },
+    {
+      "name": "郑礼朋",
+      "role": "小初中数学",
+      "color": "#df7b32"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-zhong",
+      "name": "钟同学",
+      "grade": "高二",
+      "score": "82 / 100",
+      "status": "稳定提升",
+      "learningContent": "空间向量的坐标运算、立体几何中的夹角与距离",
+      "notes": "计算步骤较完整，继续加强空间图形转化。",
+      "gptProjectName": "钟同学 · 高二数学",
+      "gptProjectUrl": ""
+    },
+    {
+      "id": "student-cindy",
+      "name": "Cindy",
+      "grade": "九年级",
+      "score": "78 / 100",
+      "status": "基础巩固",
+      "learningContent": "二次函数图像、顶点式与综合应用",
+      "notes": "概念理解较好，需要提升分类讨论的完整性。",
+      "gptProjectName": "Cindy · 中考数学",
+      "gptProjectUrl": ""
+    },
+    {
+      "id": "student-bowei",
+      "name": "铂玮",
+      "grade": "八年级",
+      "score": "80 / 100",
+      "status": "需要关注",
+      "learningContent": "一次函数图像与实际问题",
+      "notes": "作业正确率有波动，下次课先检查基础题。",
+      "gptProjectName": "铂玮 · 初中数学",
+      "gptProjectUrl": ""
+    },
+    {
+      "id": "student-qianyu",
+      "name": "芊妤",
+      "grade": "七年级",
+      "score": "76 / 100",
+      "status": "基础巩固",
+      "learningContent": "有理数运算与代数式化简",
+      "notes": "符号问题正在改善，建议保持每日十分钟计算练习。",
+      "gptProjectName": "芊妤 · 七年级数学",
+      "gptProjectUrl": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": 106,
+      "teacher": "钟坤",
+      "subject": "一次函数",
+      "student": "八年级一对一（示例）",
+      "room": "A203",
+      "date": "2026-08-15",
+      "start": "14:00",
+      "end": "15:30",
+      "type": "一对一",
+      "studentIds": []
+    },
+    {
+      "id": 107,
+      "teacher": "陈泽尧",
+      "subject": "高中数学教研",
+      "student": "数学组教研",
+      "room": "会议室",
+      "date": "2026-08-16",
+      "start": "09:30",
+      "end": "11:00",
+      "type": "教研",
+      "studentIds": []
+    }
+  ],
+  "scores": [
+    {
+      "id": "score-z-1",
+      "studentId": "student-zhong",
+      "date": "2026-03-18",
+      "examName": "高一下学期开学考",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 71,
+      "fullScore": 100,
+      "classAverage": 68,
+      "rank": "班级 18 / 42",
+      "note": "立体几何失分较多。"
+    },
+    {
+      "id": "score-z-2",
+      "studentId": "student-zhong",
+      "date": "2026-04-22",
+      "examName": "四月月考",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 76,
+      "fullScore": 100,
+      "classAverage": 69,
+      "rank": "班级 14 / 42",
+      "note": "函数部分正确率提高。"
+    },
+    {
+      "id": "score-z-3",
+      "studentId": "student-zhong",
+      "date": "2026-05-16",
+      "examName": "阶段测评",
+      "subject": "数学",
+      "source": "机构测评",
+      "score": 81,
+      "fullScore": 100,
+      "classAverage": 72,
+      "rank": "",
+      "note": "空间向量基础掌握较稳定。"
+    },
+    {
+      "id": "score-z-4",
+      "studentId": "student-zhong",
+      "date": "2026-06-28",
+      "examName": "高一期末考试",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 82,
+      "fullScore": 100,
+      "classAverage": 73,
+      "rank": "班级 10 / 42",
+      "note": "综合题书写仍需完善。"
+    },
+    {
+      "id": "score-c-1",
+      "studentId": "student-cindy",
+      "date": "2026-04-12",
+      "examName": "四月月考",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 69,
+      "fullScore": 100,
+      "classAverage": 66,
+      "rank": "",
+      "note": "一元二次方程计算失分。"
+    },
+    {
+      "id": "score-c-2",
+      "studentId": "student-cindy",
+      "date": "2026-05-20",
+      "examName": "阶段测评",
+      "subject": "数学",
+      "source": "机构测评",
+      "score": 74,
+      "fullScore": 100,
+      "classAverage": 70,
+      "rank": "",
+      "note": "二次函数图像理解有进步。"
+    },
+    {
+      "id": "score-c-3",
+      "studentId": "student-cindy",
+      "date": "2026-06-25",
+      "examName": "期末考试",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 78,
+      "fullScore": 100,
+      "classAverage": 71,
+      "rank": "班级 16 / 40",
+      "note": "分类讨论需要继续巩固。"
+    },
+    {
+      "id": "score-b-1",
+      "studentId": "student-bowei",
+      "date": "2026-04-18",
+      "examName": "校内月考",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 72,
+      "fullScore": 100,
+      "classAverage": 70,
+      "rank": "",
+      "note": "计算正确率高，步骤不完整。"
+    },
+    {
+      "id": "score-b-2",
+      "studentId": "student-bowei",
+      "date": "2026-06-27",
+      "examName": "期末考试",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 80,
+      "fullScore": 100,
+      "classAverage": 72,
+      "rank": "",
+      "note": "函数题得分提升。"
+    },
+    {
+      "id": "score-q-1",
+      "studentId": "student-qianyu",
+      "date": "2026-05-10",
+      "examName": "阶段检测",
+      "subject": "数学",
+      "source": "作业检测",
+      "score": 68,
+      "fullScore": 100,
+      "classAverage": 70,
+      "rank": "",
+      "note": "有理数符号错误较多。"
+    },
+    {
+      "id": "score-q-2",
+      "studentId": "student-qianyu",
+      "date": "2026-06-26",
+      "examName": "期末考试",
+      "subject": "数学",
+      "source": "学校考试",
+      "score": 76,
+      "fullScore": 100,
+      "classAverage": 71,
+      "rank": "",
+      "note": "计算准确率已有提升。"
+    }
+  ]
+}
